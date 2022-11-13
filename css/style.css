@@ -1,0 +1,118 @@
+body{
+    font-family: "Redley";
+    background-color: rgb(23, 16, 16);
+    color:rgb(251, 196, 196);
+    
+}
+#container{
+    background-color: rgb(23, 16, 16);
+    color:rgb(251, 196, 196);
+    max-width: 800px;
+    margin: 0 auto;
+}
+#logo{
+    width: 200px;
+    display: block;
+    position: relative;
+    margin: -125px auto 0px;
+}
+h1{
+    color: rgb(139, 21, 21);
+    text-shadow: 2px 1px rgb(119, 61, 61);
+    text-align: center;
+}
+h2{
+    margin-bottom: -15px;
+    margin-left: 15px;
+}
+#footer{
+    display: block;
+    align-content: center;
+    text-align: right;
+    width: 94%;
+    margin-left: 0 auto;
+    margin-bottom: 0px;
+    padding: 15px;
+}
+p{
+    max-width: 800px;
+    margin: 1rem auto;
+    color: whitesmoke;
+    font-size: larger;
+    padding: 6px 15px;
+    font-family: 'Times New Roman', Times, serif
+}
+li{
+    color: whitesmoke;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+}
+.top{
+    display: block;
+    position: relative;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+}
+#img1{
+    transition: ease 450ms;
+    max-width: 800px;
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    opacity: 80%;
+    filter: sepia(7);
+}
+#img1:hover{
+    transition: ease 500ms;
+    transform: scale(1.05);
+    filter: sepia(0);
+}
+#sangue-topo{
+    margin: 0 auto;
+    margin-top: -8px;
+    height: 200px;
+    width: 100%;
+}
+#discografia{
+    /* margin-left: 8%; */
+    list-style-image: url("../img/gun.png");
+}
+#player{
+    transition: ease 500ms;
+    position: fixed;
+    display: block;
+    bottom: 5px;
+    left: 5px;
+    opacity: .1;
+}
+.november-rain-img, .dont-cry, .stranged{
+    display: block;
+    margin: 30px auto 0;
+    border-radius: 5px;
+    width: 400px;
+    transition: ease 300ms;
+}
+.november-rain-img:hover, .dont-cry:hover, .stranged:hover{
+    transition: ease 300ms;
+    cursor:pointer;
+    filter:sepia(.3);
+    transform:scale(1.05);
+    box-shadow: -3px -2px 4px rgba(251, 136, 136, 0.524), 3px 3px 10px rgba(247, 100, 100, 0.564);
+}
+.videos-ext{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    max-width: 800px;
+}
+.dont-cry, .stranged{
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    margin: 1rem auto;
+}
+#player:hover{
+    transition: ease 300ms;
+    opacity: 1;
+}
