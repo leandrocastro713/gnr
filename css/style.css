@@ -101,6 +101,20 @@ li{
     transform:scale(1.05);
     box-shadow: -3px -2px 4px rgba(251, 136, 136, 0.524), 3px 3px 10px rgba(247, 100, 100, 0.564);
 }
+.november-rain-span{
+    transition: ease 200ms;
+    width: 100%;
+    padding: 5px 15px;
+    /* margin: -16px; */
+    color:antiquewhite;
+    background-color: rgba(0, 0, 0, 0.596);
+    opacity:1;
+    z-index: 40;
+}
+.november-rain-span:hover{
+    opacity:1;
+    transition: ease 200ms;
+}
 .videos-ext{
     display:flex;
     justify-content: space-evenly;
