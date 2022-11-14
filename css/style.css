@@ -69,6 +69,7 @@ li{
     filter: sepia(0);
 }
 #sangue-topo{
+    animation: ease 10s blood-animation infinite;
     margin: 0 auto;
     margin-top: -8px;
     height: 200px;
@@ -115,4 +116,13 @@ li{
 #player:hover{
     transition: ease 300ms;
     opacity: 1;
+}
+@keyframes blood-animation{
+    50%{
+        transform:translateX(10px);
+        /* transform:scale(.02); */
+    }
+    100%{
+        transform:translateX(0px);
+    }
 }
