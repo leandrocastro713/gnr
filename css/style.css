@@ -148,3 +148,40 @@ li{
         transform:translateX(0px);
     }
 }
+@media(max-width:400px){
+    #container{
+        max-width: 94%;
+        margin:5px auto;
+    }
+    p{
+        width: 94%;
+        margin: 0 auto;
+        padding: 20px 5px;
+        font-size: 17px;
+        text-align: justify;
+    }
+    h2{
+        margin-left: 5px;
+        font-size: 20px;
+    }
+    #img1{
+        width: 94%;
+    } 
+    .november-rain-container img, .dont-cry-container img, .stranged-container img{
+        width:94%;
+    }
+    .november-rain-container p{
+        width:94%;
+    }
+    .november-rain-container p, .dont-cry-container p, .stranged-container p{
+        margin-top: -30px;
+        width: 270px;
+    }    
+    .video-mais-tocado, .dont-cry-container, .stranged-container{
+        justify-content: center;
+    }
+    .videos-ext{
+        width:94%;
+        margin-top: -25px;
+    }
+}
