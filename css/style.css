@@ -2,10 +2,16 @@ body{
     font-family: "Redley";
     background-color: rgb(23, 16, 16);
     color:rgb(251, 196, 196);
-    
+    background-image: url("../img/fundo.webp");
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    background-attachment: fixed;
+    background-position: top;
+    background-blend-mode:color-dodge; 
+    overflow-x: hidden;   
 }
 #container{
-    background-color: rgb(23, 16, 16);
+    /* background-color: rgb(23, 16, 16); */
     color:rgb(251, 196, 196);
     max-width: 800px;
     margin: 0 auto;
@@ -60,7 +66,6 @@ li{
     width: 80%;
     display: block;
     margin: 0 auto;
-    opacity: 80%;
     filter: sepia(7);
 }
 #img1:hover{
@@ -70,13 +75,11 @@ li{
 }
 #sangue-topo{
     animation: ease 10s blood-animation infinite;
-    margin: 0 auto;
-    margin-top: -8px;
+    margin: -8px -20px 0;
     height: 200px;
-    width: 100%;
+    width: 120%;
 }
 #discografia{
-    /* margin-left: 8%; */
     list-style-image: url("../img/gun.png");
 }
 #player{
@@ -88,6 +91,17 @@ li{
     opacity: .1;
 
 }
+.modal-november-rain{
+    display: block;
+    margin: 30px auto 0;
+    border-radius: 5px;
+    width: 300px;
+    height: 300px;
+    z-index: 1;
+    display:none;
+    transition: ease 300ms;
+}
+
 .november-rain-container, .dont-cry-container, .stranged-container{
     display:flex;
     flex-direction: column;
@@ -146,6 +160,11 @@ li{
     }
     100%{
         transform:translateX(0px);
+    }
+}
+@media(max-width:600px){
+    body{
+        background-size: 100vh;
     }
 }
 @media(max-width:400px){
